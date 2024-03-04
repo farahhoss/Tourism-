@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  direction: rtl;
+  text-align: right;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+:root {
+  --main-color: rgba(255, 101, 37, 1) !important;
+  --main-color1: rgba(61, 179, 172, 1) !important;
+  --light-color: rgba(39, 36, 68, 0.6) !important;
+  --gray-color: rgba(0, 0, 0, 1) !important;
+  --shadow: rgba(145, 158, 171, 0.2) 0px 2px 4px -1px,
+    rgba(145, 158, 171, 0.14) 0px 4px 5px 0px,
+    rgba(145, 158, 171, 0.12) 0px 1px 10px 0px;
+  --font-family: "Encode Sans Expanded", sans-serif;
+  --font-family2: "Cairo", sans-serif;
+  --font-family3: "Roboto", sans-serif;
+  --font-family4: "Rubik", sans-serif;
+  --blue-color: rgba(39, 36, 68, 1) !important;
+  --rating-color: #ffc908 !important;
+  --white: #ffffff !important;
+}
+h1,
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 32px;
+  font-family: var(--font-family2);
+}
+h4 {
+  font-size: 24px;
+}
+.fs-32 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.w-80 {
+  width: 85%;
+}
+.w-lg-48 {
+  width: 48%;
+}
+.p-6 {
+  padding: 60px;
+}
+body {
+  font-family: var(--font-family2) !important;
+}
+.light-color1 {
+  color: var(--light-color);
+}
+.gray-color {
+  color: var(--gray-color);
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.navbar {
+  height: 80px !important;
+}
+.navbar-brand {
+  font-size: 24px;
+}
+.nav-link a i {
+  color: var(--main-color) !important;
+}
+.navbar-brand:hover {
+  color: var(--main-color) !important;
+}
+.nav-link:hover {
+  color: inherit !important;
+}
+.nav-link a {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--font-family3) !important;
+}
+.language {
+  margin-right: 100px;
+}
+/* a,
+a:hover {
+  color: black;
+  text-decoration: none;
+} */
+.product:hover {
+  box-shadow: var(--shadow);
+  border: solid 1px var(--main-color);
+}
+.product .btn {
+  transition: transform 1s, opacity 1s;
+  transform: translateY(100%);
+  opacity: 0;
+}
+.product:hover .btn {
+  opacity: 1;
+  transform: translateY(0%);
+}
+.font-sm {
+  font-size: 14px;
+}
+.text-main {
+  color: var(--main-color);
+}
+.text-main1 {
+  color: var(--main-color1);
+}
+.text-blue {
+  color: var(--blue-color) !important;
+}
+.text-rating {
+  color: #ffc908;
+}
+.bg-whatsap {
+  background-color: rgba(41, 194, 80, 1) !important;
+  color: #ffffff !important;
+}
+.bg-main {
+  background-color: var(--main-color) !important;
+}
+.bg-main1 {
+  background-color: var(--main-color1) !important;
+}
+.bg-main-light {
+  background-color: var(--light-color) !important;
+}
+.navbar-nav .nav-link.active {
+  color: var(--main-color) !important;
+  font-weight: bolder;
+}
+.nav-pills .nav-link.active {
+  color: #ffffff !important;
+  background-color: var(--main-color) !important;
+}
+.nav-pills .nav-link {
+  color: var(--main-color) !important;
+}
+@media (max-width: 767px) {
+  .text-width {
+    width: 100% !important;
+  }
+  .fs-32 {
+    font-size: 23px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .text-width {
+    width: 100% !important;
+  }
+  .fs-32 {
+    font-size: 23px;
+  }
+}
