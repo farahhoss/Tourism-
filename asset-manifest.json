@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Tourism-/static/css/main.e90cf259.css",
-    "main.js": "/Tourism-/static/js/main.d6cd9fca.js",
+    "main.js": "/Tourism-/static/js/main.e5312637.js",
     "static/js/453.df1e74e3.chunk.js": "/Tourism-/static/js/453.df1e74e3.chunk.js",
     "static/media/jpg": "/Tourism-/static/media/c28a419e6d8ee3bb55582bfcc29fedcf.5d870f0c6c66145c0816.jpg",
     "static/media/fa-solid-900.ttf": "/Tourism-/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
@@ -15,11 +15,11 @@
     "static/media/fa-v4compatibility.woff2": "/Tourism-/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/Tourism-/index.html",
     "main.e90cf259.css.map": "/Tourism-/static/css/main.e90cf259.css.map",
-    "main.d6cd9fca.js.map": "/Tourism-/static/js/main.d6cd9fca.js.map",
+    "main.e5312637.js.map": "/Tourism-/static/js/main.e5312637.js.map",
     "453.df1e74e3.chunk.js.map": "/Tourism-/static/js/453.df1e74e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e90cf259.css",
-    "static/js/main.d6cd9fca.js"
+    "static/js/main.e5312637.js"
   ]
 }
