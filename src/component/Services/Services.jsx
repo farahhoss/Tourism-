@@ -11,7 +11,9 @@ export default function Services() {
         alignItems: "center",
         minHeight: "90vh",
         backgroundImage: `url(${cover})`,
-        backgroundPosition: "contain contain",
+
+        backgroundPosition: "center",
+        backgroundSize: "cover",
       }}
     >
       <div className="container">

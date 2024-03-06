@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { QRCodeSVG } from "qrcode.react";
 import img from "../../assets/images/c28a419e6d8ee3bb55582bfcc29fedcf.jpg";
-export default function Main3() {
+export default function Main7() {
   return (
     <div className="container ">
       <div className="row d-flex justify-content-between h-100 shadow-sm rounded  py-2 my-3">
@@ -13,7 +13,7 @@ export default function Main3() {
               {" "}
               <img src={img} className="w-100 rounded" height={384} />
             </div>
-            <div className="col-lg-7 col-md-6    text-end">
+            <div className="col-lg-7 col-md-6 text-end">
               <div>
                 <div className="header">
                   <h4
@@ -24,7 +24,7 @@ export default function Main3() {
                       lineHeight: "44.98px",
                     }}
                   >
-                    عروض جورجيا
+                    عروض ارذبيجان
                   </h4>
                   <h4
                     style={{

@@ -29,19 +29,22 @@ export default function Footer() {
               <p className="text-main">العنوان</p>
               <p>خدمه العملاء السياحه في مصر </p>
               <p className="text-main">الايميل</p>
-              <p>gloryatravels@gmail.com</p>
+              <p>welcome.travels.we@gmail.com</p>
               <p className="text-main">خدمه العملاء</p>
-              <p>+995 555 555 9631</p>
-              <p>+995 555 555 9731</p>
+              <p>+995 55555 9516</p>
+              <p>+995 55555 9546</p>
             </div>
             <div className="text-end my-2">
               <i class="fa-brands fa-facebook text-main p-2 rounded-circle shadow-sm mx-1"></i>
-              <i class="fa-brands fa-facebook text-main p-2 rounded-circle shadow-sm mx-1"></i>
-              <i class="fa-brands fa-facebook text-main p-2 rounded-circle shadow-sm mx-1"></i>
-              <i class="fa-brands fa-facebook text-main p-2 rounded-circle shadow-sm mx-1"></i>
-              <i class="fa-brands fa-facebook text-main p-2 rounded-circle shadow-sm mx-1"></i>
-              <i class="fa-brands fa-facebook text-main p-2 rounded-circle shadow-sm mx-2"></i>
-              <i class="fa-brands fa-facebook text-main p-2 rounded-circle shadow-sm mx-2"></i>
+              <i class="fa-brands fa-instagram text-main p-2 rounded-circle shadow-sm mx-1"></i>
+              <i class="fa-brands fa-x-twitter text-main p-2 rounded-circle shadow-sm mx-1"></i>
+
+              <i class="fa-brands fa-tiktok text-main p-2 rounded-circle shadow-sm mx-1"></i>
+              <i class="fa-brands fa-snapchat text-main p-2 rounded-circle shadow-sm mx-1"></i>
+
+              <i class="fa-brands fa-whatsapp text-main p-2 rounded-circle shadow-sm mx-2"></i>
+
+              <i class="fa-brands fa-youtube text-main p-2 rounded-circle shadow-sm mx-2"></i>
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ import {
   createHashRouter,
 } from "react-router-dom";
 import MainLayout from "./component/Layouts/MainLayout";
-import Home from "./component/home/Home";
+
 import Main from "./component/Main/Main";
 import Main3 from "./component/Main3/Main3";
 
@@ -20,7 +20,7 @@ function App() {
       children: [
         {
           index: true,
-          element: <Home />,
+          element: <Main />,
         },
         {
           path: "main",

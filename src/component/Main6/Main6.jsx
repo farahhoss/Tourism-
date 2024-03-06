@@ -3,7 +3,7 @@ import img1 from "../../assets/images/870e6f3844fe52726977bd64cb570910.jpg";
 import img2 from "../../assets/images/aedf67cdda90ed3e86ecf724d33be1f6.jpg";
 import img3 from "../../assets/images/a36f3f16244831c61c75a0abe7f8a923.jpg";
 import img4 from "../../assets/images/b7580adc704b41335cefeff1234ccb82.jpg";
-export default function Main2() {
+export default function Main6() {
   return (
     <div
       style={{
@@ -23,7 +23,7 @@ export default function Main2() {
               fontFamily: "Rubik",
             }}
           >
-            السياحة في <span className="text-main"> جورجيا</span>
+            السياحة في <span className="text-main"> ارذبيجان</span>
           </h2>
           <p
             className="text-blue pt-2  w-sm-100 w-md-100 w-lg-48 text-width "
@@ -34,10 +34,10 @@ export default function Main2() {
               margin: "auto",
             }}
           >
-            تتميز جورجيا بجمال طبيعتها المذهلة حيث تضم جبال القوقاز والشواطي
-            الرائعة والبحيرات الخلابة كما يمكنك التمتع بالتزلج ورحلات ل القرى
-            التقليدية  وتحتوى على الكثير من المناظر الطبيعية والساحره والكثير من
-            الحدائق الطبيعية
+            تتميز ارذبيجان بالسياحة الدينية والمنتجعات الصحية وتعد دولة ثقافية
+            جدا وتتمتع بالتضاريس المتنوعة والجميلة يحتفظ سكانها بالعديد من
+            التقاليد الشعبية المميزه والشهيرة وتعد الخيول الجميلة والكافيار احدى
+            الصادرات التقليدية الاكثر تميزا
           </p>
         </div>
 

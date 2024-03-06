@@ -15,8 +15,8 @@ export default function Navbar2() {
           </NavLink>
         </li>
         <li className="nav-item mx-3">
-          <NavLink className="nav-link" to="/reservesion">
-            حجز قطار
+          <NavLink className="nav-link " to="/hotel">
+            حجز فنادق
           </NavLink>
         </li>
         <li className="nav-item mx-3">
@@ -25,10 +25,11 @@ export default function Navbar2() {
           </NavLink>
         </li>
         <li className="nav-item mx-3">
-          <NavLink className="nav-link " to="/hotel">
-            حجز فنادق
+          <NavLink className="nav-link" to="/reservesion">
+            حجز قطار
           </NavLink>
         </li>
+
         <li className="nav-item me-3">
           <NavLink className="nav-link " to="/contact">
             تواصل معنا
